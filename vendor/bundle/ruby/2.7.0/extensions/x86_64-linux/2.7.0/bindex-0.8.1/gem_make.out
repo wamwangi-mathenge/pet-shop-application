@@ -1,0 +1,15 @@
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/brian/.rbenv/versions/2.7.4/bin/ruby -I /home/brian/.rbenv/versions/2.7.4/lib/ruby/2.7.0 -r ./siteconf20230313-10024-4dr7oo.rb extconf.rb
+creating Makefile
+
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/bin/install -c -m 0755 cruby.so ./.gem.20230313-10024-1rv60ew/skiptrace/internal

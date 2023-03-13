@@ -1,0 +1,20 @@
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+/home/brian/.rbenv/versions/2.7.4/bin/ruby -I /home/brian/.rbenv/versions/2.7.4/lib/ruby/2.7.0 -r ./siteconf20230313-10024-4b4owe.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make "DESTDIR=" clean
+
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make "DESTDIR="
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/brian/Development/code/Phase4/pet-shop/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make "DESTDIR=" install
+/bin/install -c -m 0755 console.so ./.gem.20230313-10024-r25h6j/io
