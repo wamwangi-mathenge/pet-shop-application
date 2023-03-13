@@ -7,6 +7,8 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-Pet.create(name: "Rex", breed: "German Shepherd")
-Pet.create(name: "Bosco", breed: "Labrador")
-Pet.create(name: "Max", breed: "Golden Retriever")
+# Pet.create(name: "Rex", breed: "German Shepherd")
+# Pet.create(name: "Bosco", breed: "Labrador")
+# Pet.create(name: "Max", breed: "Golden Retriever")
+
+Pet.create(name: Faker::Creature::Dog.name, breed: Faker::Creature::Dog.breed)
